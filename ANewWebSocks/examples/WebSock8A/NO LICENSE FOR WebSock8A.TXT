@@ -1,0 +1,13 @@
+NO LICENSE.
+
+// No license, Why ?
+// A "NO LICENSE" is usefull for the following;
+// When no one is claiming AUTHORSHIP or CREDITS for the work.
+// When no one is looking for accolades, tap in the back, "way to go ...", beer, you get the picture.
+// Also you do not have to worry about being sued, going to court ect.
+// For example, if you're helping out your community, it helps by not claiming anything.
+// By not including anything about yourself, your name, nick name, web names, ect.
+// Simply refer to the name of software and version, is ample enough to communicate effectively.
+// This should help the newbies with learning a new approach to community support and not
+// worrying about licenses. And most importantly, when wanting to help out, in a pure manner.
+// A benifit of helping others, is that your helping yourself twice.
