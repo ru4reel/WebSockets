@@ -33,7 +33,8 @@
 
 
 ## 1.	esp-open-sdk Installation. 
-	The size of the esp-open-sdk folder when done after 90 minutes of compiling will be in excess of 144,000 files and 3GB.  
+	The size of the esp-open-sdk folder when done after 90 minutes   
+	of compiling will be in excess of 144,000 files and 3GB.  
 1.	$ sudo apt-get install -y git autoconf automake build-essential gperf bison flex texinfo libtool libtool-bin  
         $ sudo apt-get install -y ncurses-dev libncurses5-dev wget gawk libc6-dev-i386 python-serial libexpat-dev  
 	$ sudo apt-get install -y gperf flex bison texinfo help2man python2.7-dev make unrar-free sed  
@@ -139,13 +140,13 @@
 
 ## 3.	Compile WebSock8A.ino 
 
-1.	cd ~/arduino-1.6.8/hardware/esp8266com/esp8266/libraries/
+1.	cd ~/arduino-1.6.8/hardware/esp8266com/esp8266/libraries/  
 2	$ git clone install https://github.com/ru4reel/WebSockets.git 
-3.	Start the arduino ide and select "Examples --> ANewWebSocks --> WebSock8A
-4.	Select your tty port and your board.
-5.	Make sure you select the correct memory size for your board.
-6.	The ESP8266-01 is 512K, the ESP8266-12 is 1M
-	Best wishes.
+3.	Start the arduino ide and select "Examples --> ANewWebSocks --> WebSock8A  
+4.	Select your tty port and your board.  
+5.	Make sure you select the correct memory size for your board.  
+6.	The ESP8266-01 is 512K, the ESP8266-12 is 1M  
+	Best wishes.  
 
-## End of Document
+### End of README.md
 
