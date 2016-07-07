@@ -1,8 +1,7 @@
-# WebSockets
+# WebSockets for ESP8266
 
 
-ABOUT WebSockets
-----------------
+## ABOUT WebSockets
 This web Socket example is for the ESP8266 microcontroller.
 The websocket example file is called WebSock8A.ino
 It is located in folder WebSockets/ANewWebSocks/examples/WebSock8A/
@@ -14,8 +13,7 @@ Although there are many details, every distribution is different, this one is ba
 There is enough direction in here for you to have a succesful outcome.
 
 
-FEATURES
---------
+## FEATURES
 1.	A web server on port 80, serving the websocket page.
 2.	A web socket server on port 81, handling the traffic using tcp/ip
 3.	It uses a Static IP Address of 192.168.1.123 
@@ -25,19 +23,16 @@ FEATURES
 7.	A Scan for Wifi AP is integrated.
 8.	IMPORTANT --> Change the SSID  and Password before compiling.
 
-Instruction Steps
------------------
+
+## INTRUCTION STEPS
 1.	esp-open-sdk Installation.
 2.	arduno ide Installation.
 3.	Compile WebSock8A.ino
 	
 
------------------------------------
-START OF esp-open-sdk Installation 
------------------------------------
-The size of the esp-open-sdk folder when done after 90 minutes of compiling will be in excess of 144,000 files and 3GB.
-------------------------------------
 
+## 1.	esp-open-sdk Installation. 
+	The size of the esp-open-sdk folder when done after 90 minutes of compiling will be in excess of 144,000 files and 3GB.
 1.	$ sudo apt-get install -y git autoconf automake build-essential gperf bison flex texinfo libtool libtool-bin
         $ sudo apt-get install -y ncurses-dev libncurses5-dev wget gawk libc6-dev-i386 python-serial libexpat-dev 
 	$ sudo apt-get install -y gperf flex bison texinfo help2man python2.7-dev make unrar-free sed
@@ -96,13 +91,12 @@ The size of the esp-open-sdk folder when done after 90 minutes of compiling will
 	make clean
 	git pull
 	git submodule update
------------------------------------
-END OF esp-open-sdk Installation 
------------------------------------
 
------------------------------------
-START OF arduno ide Installation. 
------------------------------------
+
+
+
+## 2.	arduno ide Installation. 
+
 $ cd ~
 $ sudo wget http://blog.spitzenpfeil.org/arduino/arduino-1.6.8-linux64.tar.xz
 $ tar xf arduino-1.6.8-linux64.tar.xz
@@ -139,21 +133,20 @@ Download binary tools
 
 cd esp8266/tools
 python get.py
------------------------------------
-END OF arduno ide Installation. 
------------------------------------
 
 
------------------------------------
-START OF Compile WebSock8A.ino 
------------------------------------
-cd ~/arduino-1.6.8/hardware/esp8266com/esp8266/libraries/
-$ git clone install https://github.com/ru4reel/WebSockets.git 
-Start the arduino ide and select "Examples --> ANewWebSocks --> WebSock8A
-Select your tty port and your board.
-Make sure you select the correct memory size for your board.
-The ESP8266-01 is 512K, the ESP8266-12 is 1M
-Best wishes.
------------------------------------
+
+
+## 3.	Compile WebSock8A.ino 
+
+1.	cd ~/arduino-1.6.8/hardware/esp8266com/esp8266/libraries/
+2	$ git clone install https://github.com/ru4reel/WebSockets.git 
+3.	Start the arduino ide and select "Examples --> ANewWebSocks --> WebSock8A
+4.	Select your tty port and your board.
+5.	Make sure you select the correct memory size for your board.
+6.	The ESP8266-01 is 512K, the ESP8266-12 is 1M
+	Best wishes.
+
+## End of Document
 END OF Compile WebSock8A.ino 
 -----------------------------------
