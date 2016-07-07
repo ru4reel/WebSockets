@@ -92,7 +92,42 @@ END OF esp-open-sdk Installation
 -----------------------------------
 START OF arduno ide Installation. 
 -----------------------------------
+$ cd ~
+$ sudo wget http://blog.spitzenpfeil.org/arduino/arduino-1.6.8-linux64.tar.xz
+$ tar xf arduino-1.6.8-linux64.tar.xz
+$ cd $HOME/arduino-1.6.8/hardware
+$ mkdir esp8266com
+$ cd esp8266com
+$ git clone https://github.com/esp8266/Arduino.git esp8266
 
+You should end up with the following directory structure:
+
+Arduino
+|
+--- hardware
+    |
+    --- esp8266com
+        |
+        --- esp8266
+            |
+            --- bootloaders
+            --- cores
+            --- doc
+            --- libraries
+            --- package
+            --- tests
+            --- tools
+            --- variants
+            --- platform.txt
+            --- programmers.txt
+            --- README.md
+            --- boards.txt
+            --- LICENSE
+
+Download binary tools
+
+cd esp8266/tools
+python get.py
 -----------------------------------
 END OF arduno ide Installation. 
 -----------------------------------
@@ -101,7 +136,13 @@ END OF arduno ide Installation.
 -----------------------------------
 START OF Compile WebSock8A.ino 
 -----------------------------------
-git clone install https://github.com/ru4reel/WebSockets.git 
+cd ~/arduino-1.6.8/hardware/esp8266com/esp8266/libraries/
+$ git clone install https://github.com/ru4reel/WebSockets.git 
+Start the arduino ide and select "Examples --> ANewWebSocks --> WebSock8A
+Select your tty port and your board.
+Make sure you select the correct memory size for your board.
+The ESP8266-01 is 512K, the ESP8266-12 is 1M
+Best wishes.
 -----------------------------------
 END OF Compile WebSock8A.ino 
 -----------------------------------
