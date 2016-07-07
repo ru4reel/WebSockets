@@ -141,12 +141,13 @@
 ## 3.	Compile WebSock8A.ino 
 
 1.	cd ~/arduino-1.6.8/hardware/esp8266com/esp8266/libraries/  
-2	$ git clone install https://github.com/ru4reel/WebSockets.git 
+2.	$ git clone install https://github.com/ru4reel/WebSockets.git 
 3.	Start the arduino ide and select "Examples --> ANewWebSocks --> WebSock8A  
 4.	Select your tty port and your board.  
 5.	Make sure you select the correct memory size for your board.  
 6.	The ESP8266-01 is 512K, the ESP8266-12 is 1M  
-	Best wishes.  
+
+***	Best wishes.  ***
 
 ### End of README.md
 
