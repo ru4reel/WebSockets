@@ -1,22 +1,24 @@
 # WebSockets for ESP8266
 
-
 ## About WebSock8A
 	WebSock8A is a arduino ide based firmaware for the ESP8266.  
 	WebSock8A is a web Socket firmware for the ESP8266 microcontroller built.  
 	The websocket example file is called WebSock8A.ino  
 	It is located in folder WebSockets/ANewWebSocks/examples/WebSock8A/  
-	It uses c++ a library that is contain with folder WebSockets.  
-	It requires the arduino ide, and the esp sdk devellopment stack.  
+	It uses c++ library that is contained with folder WebSockets.  
+	It requires the arduino ide ver 1.6.8, and the esp sdk devellopment stack.  
 	This particular example is intended for a Linux distribution.  
 	To Compile it follow the instruction Steps below.  
 	Although there are many details, every distribution is different, this one is based on Debian 8.
 	There is enough direction in here for you to have a succesful outcome.  
 
+## REQUIREMENTS
+	ARDUINO IDE 1.6.8  
+	ESP8266 SDK DEVELLOPMENT STACKS "xtensa-lx106-elf"  
+
 ## LICENSE
 	All the included libraries are GNU Ver 2.1 .  
 	The WebSock8A.ino has a "NO LICENSE" delaied in "NO LICENSE FOR WebSock8A.TXT" .      
-
 
 ## FEATURES
 1.      A web server on port 80, serving the websocket page.  
@@ -69,7 +71,9 @@
 	PATH=$PATH:~/esp-open-sdk/esptool  
 
 8.	$ sudo reboot   
-9.	Connect the ESP8266 dev board to USB port ttyUSB0, and Test it.  
+	
+9.	###Connect the ESP8266 dev board to USB port ttyUSBx, and Test it. 
+ 
 	$ cd $HOME/esp-open-sdk/examples/blinky  
 	$ make ESPPORT=/dev/ttyUSB0 flash  
 
@@ -135,8 +139,7 @@
 		    --- boards.txt  
 		    --- LICENSE  
 
-	Download binary tools  
-
+	####Download binary tools  
 	cd esp8266/tools  
 	python get.py  
 
@@ -154,5 +157,5 @@
 
 *Best wishes.*
 
-### End of README.md
+#### End of README.md
 
