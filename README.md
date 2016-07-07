@@ -9,13 +9,24 @@ It is located in folder WebSockets/ANewWebSocks/examples/WebSock8A/
 It uses c++ a library that is contain with folder WebSockets.
 It requires the arduino ide, and the esp sdk devellopment stack.
 This particular example is intended for a Linux distribution.
-To Compile it follow the instruction below.
+To Compile it follow the instruction Steps below.
 Although there are many details, every distribution is different, this one is based on Debian 8.
 There is enough direction in here for you to have a succesful outcome.
 
 
-Steps
------
+FEATURES
+--------
+1.	A web server on port 80, serving the websocket page.
+2.	A web socket server on port 81, handling the traffic using tcp/ip
+3.	It uses a Static IP Address of 192.168.1.123 
+4.	A Speed tester to show how fast websocket are.
+5.	A LED Toggle button on pin 2. the Toggle button shows status and can be toggle by all connected devices.
+6.	Many devices can be connected and interact with each other.
+7.	A Scan for Wifi AP is integrated.
+8.	IMPORTANT --> Change the SSID  and Password before compiling.
+
+Instruction Steps
+-----------------
 1.	esp-open-sdk Installation.
 2.	arduno ide Installation.
 3.	Compile WebSock8A.ino
