@@ -3,13 +3,21 @@
 
 ## ABOUT WebSockets
 This web Socket example is for the ESP8266 microcontroller.
+
 The websocket example file is called WebSock8A.ino
+
 It is located in folder WebSockets/ANewWebSocks/examples/WebSock8A/
+
 It uses c++ a library that is contain with folder WebSockets.
+
 It requires the arduino ide, and the esp sdk devellopment stack.
+
 This particular example is intended for a Linux distribution.
+
 To Compile it follow the instruction Steps below.
+
 Although there are many details, every distribution is different, this one is based on Debian 8.
+
 There is enough direction in here for you to have a succesful outcome.
 
 
@@ -148,5 +156,4 @@ python get.py
 	Best wishes.
 
 ## End of Document
-END OF Compile WebSock8A.ino 
------------------------------------
+
