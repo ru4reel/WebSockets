@@ -72,7 +72,7 @@
 
 8.	$ sudo reboot   
 	
-9.	###Connect the ESP8266 dev board to USB port ttyUSBx, and Test it. 
+9.	#### Connect the ESP8266 dev board to USB port ttyUSBx, and Test it. 
  
 	$ cd $HOME/esp-open-sdk/examples/blinky  
 	$ make ESPPORT=/dev/ttyUSB0 flash  
@@ -139,7 +139,7 @@
 		    --- boards.txt  
 		    --- LICENSE  
 
-	####Download binary tools  
+	#### Download binary tools  
 	cd esp8266/tools  
 	python get.py  
 
