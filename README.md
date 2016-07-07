@@ -72,7 +72,7 @@
 
 8.	$ sudo reboot   
 	
-9.	#### Connect the ESP8266 dev board to USB port ttyUSBx, and Test it. 
+9.	### Connect the ESP8266 dev board to USB port ttyUSBx, and Test it. 
  
 	$ cd $HOME/esp-open-sdk/examples/blinky  
 	$ make ESPPORT=/dev/ttyUSB0 flash  
@@ -106,7 +106,6 @@
 
 
 ## 2.	arduno ide Installation. 
-
 	$ cd ~  
 	$ sudo wget http://blog.spitzenpfeil.org/arduino/arduino-1.6.8-linux64.tar.xz  
 	$ tar xf arduino-1.6.8-linux64.tar.xz  
@@ -116,7 +115,6 @@
 	$ git clone https://github.com/esp8266/Arduino.git esp8266  
 
 	You should end up with the following directory structure:  
-
 	Arduino  
 	|  
 	--- hardware  
@@ -139,7 +137,7 @@
 		    --- boards.txt  
 		    --- LICENSE  
 
-	#### Download binary tools  
+	Download binary tools  
 	cd esp8266/tools  
 	python get.py  
 
@@ -157,5 +155,5 @@
 
 *Best wishes.*
 
-#### End of README.md
+### End of README.md
 
