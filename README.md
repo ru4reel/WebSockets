@@ -1,10 +1,10 @@
 # WebSockets for ESP8266
 
 ## WEBSOCKETS
-	WebSocket is a protocol providing full-duplex, low latency communication
-        over a single TCP connection within a web browser. 
-	It was standardized as RFC 6455 in 2011, 
-	It works with Safari, Chrome, Firefox and Opera. 
+	WebSocket is a protocol providing full-duplex, low latency communication  
+        over a single TCP connection within a web browser.  
+	It was standardized as RFC 6455 in 2011,   
+	It works with Safari, Chrome, Firefox and Opera.   
 
 ## WebSock8A
 	WebSock8A is a arduino ide based firmaware for the ESP8266.  
