@@ -158,6 +158,7 @@
 4.	Select your tty port and your board.  
 5.	Make sure you select the correct memory size for your board.  
 6.	The ESP8266-01 is 512K, the ESP8266-12 is 1M  
+7.	Select compile and upload to your ESP8266 device.
 
 *Best wishes.*
 
