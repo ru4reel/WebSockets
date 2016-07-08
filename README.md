@@ -23,6 +23,12 @@
 	ARDUINO IDE 1.6.8  
 	ESP8266 SDK DEVELLOPMENT STACKS "xtensa-lx106-elf"  
 
+## BASED ON WORK OF
+	Markus Sattler
+	https://github.com/Links2004/arduinoWebSockets
+	LICENSE GNU Ver 2.1
+
+
 ## LICENSE
 	All the included libraries are GNU Ver 2.1 .  
 	The WebSock8A.ino has a "NO LICENSE" delaied in "NO LICENSE FOR WebSock8A.TXT" .      
