@@ -1,4 +1,4 @@
-# NO LICENSE.
+NO LICENSE.
 
 No license, Why ?  
 A "NO LICENSE" is usefull for the following;  
