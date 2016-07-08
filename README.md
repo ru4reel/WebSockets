@@ -1,6 +1,12 @@
 # WebSockets for ESP8266
 
-## About WebSock8A
+## WEBSOCKETS
+	WebSocket is a protocol providing full-duplex, low latency communication
+        over a single TCP connection within a web browser. 
+	It was standardized as RFC 6455 in 2011, 
+	It works with Safari, Chrome, Firefox and Opera. 
+
+## WebSock8A
 	WebSock8A is a arduino ide based firmaware for the ESP8266.  
 	WebSock8A is a web Socket firmware for the ESP8266 microcontroller built.  
 	The websocket example file is called WebSock8A.ino  
@@ -30,7 +36,6 @@
 6.	Many devices can be connected and interact with each other.  
 7.	A Wifi Scan to list Access Points is integrated.  
 8.	**IMPORTANT** Change the SSID  and Password before compiling.  
-
 
 ## INTRUCTION STEPS
 1.	esp-open-sdk Installation.  
